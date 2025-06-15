@@ -1,0 +1,13 @@
+{
+  "name": "simple-ts-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "set \"VITE_CJS_TRACE=true\" && vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}

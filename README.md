@@ -4,7 +4,7 @@
 
 ### TO LAUNCH THE PROJECT
 
-- Update you gemini API key into the .env file under this project. Key generation here: https://ai.google.dev/gemini-api/docs/api-key
+- Update you gemini API key into an .env file under this project. Key generation here: https://ai.google.dev/gemini-api/docs/api-key
 - then run `docker-compose up --build` in the project folder
 
 ### TO ACCESS THE PLATFORM

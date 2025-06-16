@@ -6,8 +6,10 @@
 
 #### TO LAUNCH THE PROJECT
 
-- Update you gemini API key into an .env file under this project. Key generation here: https://ai.google.dev/gemini-api/docs/api-key
-- then run `docker-compose up --build` in the project root folder
+- Create an .env file in the project root
+- Update you gemini API key into an .env file under this project with `GEMINI_API_KEY=<your_api_key>`. Key generation here: https://ai.google.dev/gemini-api/docs/api-key (if you run direnv ensure you allow changes)
+- launch docker desktop
+- run `docker compose up --build` in the project root
 
 #### TO ACCESS THE PLATFORM
 
@@ -26,7 +28,7 @@
 
 **Backend**
 
-_Prerequisite: (You must have `GEMINI_API_KEY` set up as env variable)_
+_Prerequisite: (You must have `GEMINI_API_KEY` set up as env variable, see above but add it to backend folder)_
 1. Open another terminal and navigate to the `Backend` directory.
 2. Run `pip install -r requirements.txt` (first time only).
 3. Start the FastAPI server:
